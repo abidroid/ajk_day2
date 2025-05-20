@@ -1,5 +1,6 @@
 import 'package:ajk_day2/screens/container_demo_screen.dart';
 import 'package:ajk_day2/screens/first_screen.dart';
+import 'package:ajk_day2/screens/row_column_demo_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
       ),
-      home: ContainerDemoScreen(), // Launcher
+      home: RowColumnDemoScreen() // Launcher
     );
   }
 }
