@@ -1,3 +1,4 @@
+import 'package:ajk_day2/screens/container_demo_screen.dart';
 import 'package:ajk_day2/screens/first_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
       ),
-      home: FirstScreen(),
+      home: ContainerDemoScreen(), // Launcher
     );
   }
 }
